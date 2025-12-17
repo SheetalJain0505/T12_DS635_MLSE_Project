@@ -151,12 +151,13 @@ User provides an image path and controls story length using a slider. The system
 Below are example outputs from the system.
 
 ### Story → Image Retrieval Output
-
+*![Story to Image Result](https://github.com/SheetalJain0505/T12_DS635_MLSE_Project/blob/main/Story_to_Image.png)*
 *![Story to Image Result](https://github.com/SheetalJain0505/T12_DS635_MLSE_Project/blob/main/Output_Image_generator.png)*
 
 ### Image → Story Generation Output
 
-*(Insert generated story text and corresponding image here)*
+*![Story to Image Result](https://github.com/SheetalJain0505/T12_DS635_MLSE_Project/blob/main/Image_to_Story.png)*
+*![Story to Image Result](https://github.com/SheetalJain0505/T12_DS635_MLSE_Project/blob/main/Output_Story_generator.png)*
 
 The results demonstrate that the system successfully:
 
