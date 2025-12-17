@@ -17,13 +17,13 @@ This project implements a Multimodal Retrieval-Augmented Generation (RAG) system
 2. **Image → Story Generation**
    Given an image, the system generates a detailed, multi-sentence narrative story grounded in the visual content of the image.
 
-The primary goal of this project is use **pretrained models**, and clearly demonstrate how **retrieval and generation can be combined** in a multimodal setting.
+The primary goal of this project is use pretrained models, and clearly demonstrate how retrieval and generation can be combined in a multimodal setting.
 
 ---
 
 ## Motivation
 
-Humans naturally associate what they see with what they read or imagine. Traditional AI systems often handle text and images separately, but real-world understanding requires linking these modalities. This project demonstrates how modern transformer-based models can be composed into a pipeline that:
+Humans naturally associate what they see with what they read or imagine.This project demonstrates how modern transformer-based models can be composed into a pipeline that:
 
 * Understands stories beyond keywords
 * Retrieves images based on semantic meaning
@@ -78,7 +78,7 @@ This shared embedding space allows direct comparison between stories and images.
 * Supports:
 
   * Story → Image retrieval
-  * Image → Caption retrieval (for grounding)
+  * Image → Description retrieval (for grounding)
 
 
 
@@ -106,8 +106,8 @@ This shared embedding space allows direct comparison between stories and images.
 
 1. User provides an image path via the UI
 2. Image is encoded using CLIP image encoder
-3. Relevant captions are retrieved using cosine similarity
-4. Captions are inserted into a narrative prompt
+3. Relevant descriptions are retrieved using cosine similarity
+4. Descriptions are inserted into a generative model with narrative prompt
 5. FLAN-T5 generates a detailed story (length controlled by slider)
 6. Story is displayed along with the image
 
@@ -116,13 +116,13 @@ This shared embedding space allows direct comparison between stories and images.
 ## Project Files and Their Roles
 
 * **prepare_flickr.py**
-  Prepares the Flickr8k dataset by reading captions and associating them with image paths.
+  Prepares the Flickr8k dataset by reading descriptions and associating them with image paths.
 
 * **build_index.py**
   Precomputes CLIP image and text embeddings and stores them for efficient retrieval.
 
 * **rag_retriever.py**
-  Implements story-to-image and image-to-caption retrieval using cosine similarity.
+  Implements story-to-image and image-to-story retrieval using cosine similarity.
 
 * **rag_generator.py**
   Implements Retrieval-Augmented Generation using FLAN-T5 with strong prompt engineering.
