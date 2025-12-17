@@ -15,8 +15,6 @@ This project implements a **Multimodal Retrieval-Augmented Generation (RAG) syst
 1. **Story / Text → Image Retrieval**
    ### Story → Image Retrieval Output
 
-![Story to Image Result](Story_to_Image.png)
-
 
 2. **Image → Story Generation**
    Given an image, the system generates a detailed, multi-sentence narrative story grounded in the visual content of the image.
@@ -156,7 +154,7 @@ Below are example outputs from the system.
 
 ### Story → Image Retrieval Output
 
-*(Insert retrieved image screenshot here)*
+![Story to Image Result](T12_DS635_MLSE_Project/blob/main/Image_to_Story.png)
 
 ### Image → Story Generation Output
 
