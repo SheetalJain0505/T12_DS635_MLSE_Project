@@ -44,7 +44,7 @@ The project uses the **Flickr8k dataset**, which contains:
 The project uses the **Flickr8k dataset**, which contains:
 
 * ~8,000 real-world images
-* 5 human-written captions per image
+* 5 human-written description per image
 
 Why Flickr8k:
 
@@ -56,7 +56,7 @@ Why Flickr8k:
 The dataset is used in two ways:
 
 * Images act as retrieval candidates
-* Captions act as grounding context for story generation
+* Descriptions act as grounding context for story generation
 
 ---
 
