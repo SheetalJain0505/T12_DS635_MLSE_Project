@@ -242,4 +242,4 @@ streamlit run app.py
 
 ---
 
-*This README is intentionally detailed to reflect deep conceptual understanding of the project.*
+
