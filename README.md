@@ -13,7 +13,10 @@
 This project implements a **Multimodal Retrieval-Augmented Generation (RAG) system** that connects **textual stories** and **visual images** in a meaningful way. The system is capable of:
 
 1. **Story / Text → Image Retrieval**
-   Given a narrative paragraph or story, the system retrieves the most semantically relevant image from a dataset.
+   ### Story → Image Retrieval Output
+
+![Story to Image Result](Story_to_Image.png)
+
 
 2. **Image → Story Generation**
    Given an image, the system generates a detailed, multi-sentence narrative story grounded in the visual content of the image.
