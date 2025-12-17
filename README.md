@@ -9,7 +9,7 @@
 
 ## Project Overview
 
-This project implements a **Multimodal Retrieval-Augmented Generation (RAG) system** that connects **textual stories** and **visual images** in a meaningful way. The system is capable of:
+This project implements a Multimodal Retrieval-Augmented Generation (RAG) system that connects textual stories and visual images in a meaningful way. The system is capable of:
 
 1. **Story / Text → Image Retrieval**
    Given a narrative paragraph or story, the system retrieves the most semantically relevant image from a dataset.
@@ -17,7 +17,7 @@ This project implements a **Multimodal Retrieval-Augmented Generation (RAG) syst
 2. **Image → Story Generation**
    Given an image, the system generates a detailed, multi-sentence narrative story grounded in the visual content of the image.
 
-The primary goal of this project is **conceptual understanding**, not model scale. The system is designed to run on **CPU-only**, use **pretrained models**, and clearly demonstrate how **retrieval and generation can be combined** in a multimodal setting.
+The primary goal of this project is use **pretrained models**, and clearly demonstrate how **retrieval and generation can be combined** in a multimodal setting.
 
 ---
 
@@ -27,7 +27,7 @@ Humans naturally associate what they see with what they read or imagine. Traditi
 
 * Understands stories beyond keywords
 * Retrieves images based on semantic meaning
-* Generates grounded stories instead of hallucinated text
+* Generates grounded stories 
 
 ---
 
@@ -80,7 +80,7 @@ This shared embedding space allows direct comparison between stories and images.
   * Story → Image retrieval
   * Image → Caption retrieval (for grounding)
 
-Retrieval ensures that generation is **grounded in real data**.
+
 
 ### 3. Generation Layer (RAG)
 
