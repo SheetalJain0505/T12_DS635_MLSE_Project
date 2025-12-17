@@ -241,5 +241,3 @@ streamlit run app.py
 * Hugging Face Transformers
 
 ---
-
-...................this is my readme but i want it to be more detailed so that my proff understands the project by readme only
