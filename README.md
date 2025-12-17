@@ -152,7 +152,7 @@ Below are example outputs from the system.
 
 ### Story → Image Retrieval Output
 
-*![Story to Image Result](Story_to_Image.png)*
+*![Story to Image Result](https://github.com/SheetalJain0505/T12_DS635_MLSE_Project/blob/main/Output_Image_generator.png)*
 
 ### Image → Story Generation Output
 
