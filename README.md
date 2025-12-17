@@ -1,4 +1,3 @@
-# T12_DS635_MLSE_Project
 # Multimodal RAG System: Story ↔ Image Understanding
 
 ## TEAM MEMBERS
@@ -13,8 +12,7 @@
 This project implements a **Multimodal Retrieval-Augmented Generation (RAG) system** that connects **textual stories** and **visual images** in a meaningful way. The system is capable of:
 
 1. **Story / Text → Image Retrieval**
-   ### Story → Image Retrieval Output
-
+   Given a narrative paragraph or story, the system retrieves the most semantically relevant image from a dataset.
 
 2. **Image → Story Generation**
    Given an image, the system generates a detailed, multi-sentence narrative story grounded in the visual content of the image.
@@ -154,7 +152,7 @@ Below are example outputs from the system.
 
 ### Story → Image Retrieval Output
 
-![Story to Image Result](T12_DS635_MLSE_Project/blob/main/Image_to_Story.png)
+*![Story to Image Result](Story_to_Image.png)*
 
 ### Image → Story Generation Output
 
